@@ -17,19 +17,31 @@ concurrency:
 
 jobs:
   build-and-deploy:
-    runs-on: windows-latest  # Use a Windows runner to execute PowerShell script
+    runs-on: windows-latest
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
 
+      - name: Install Python and Sphinx
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          
+      - name: Install Sphinx and Verify Installation
+        run: |
+          pip install sphinx
+          sphinx-build --version
+        shell: pwsh
+
       - name: Setup PowerShell Environment and Build Sphinx
-        run: .\boot.bat
+        run: |
+          .\build-sphinx.ps1
         shell: pwsh
 
       - name: Upload Artifacts for Deployment
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./build/html  # Update this to the path where your HTML files are generated
+          path: ./build/html
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
