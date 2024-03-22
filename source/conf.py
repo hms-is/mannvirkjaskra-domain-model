@@ -29,7 +29,7 @@ html_theme_options = dict(
     logo_height = 60,
     logo_url = "/",
     logo_width = 120,
-    github_url = "https://github.com/hms-is/mannvirkjaskra-domain-model/",
+    github_url = "https://github.com/hms-is/mannvirkjaskra-domain-model/tree/main/source/",
     #header_links = "Top 1|http://example.com/one, Top 2|http://example.com/two",
     footer_links = ",".join([
         "About Us|https://hms.is/husnaedis-og-mannvirkjastofnun",
