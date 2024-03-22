@@ -1,0 +1,35 @@
+name: Deploy Sphinx Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: windows-latest  # Use a Windows runner to execute PowerShell script
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Setup PowerShell Environment and Build Sphinx
+        run: .\boot.bat
+        shell: pwsh
+
+      - name: Upload Artifacts for Deployment
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./build/html  # Update this to the path where your HTML files are generated
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
