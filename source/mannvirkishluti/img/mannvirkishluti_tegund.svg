@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="3.23294in" height="2.22785in" viewBox="0 0 232.772 160.406" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st12">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {visibility:visible}
+		.st2 {fill:#cdcdcd;fill-opacity:0.5;stroke:#cdcdcd;stroke-dasharray:3,6;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5}
+		.st3 {fill:#f2f2f2;stroke:#848999;stroke-dasharray:3,6;stroke-linecap:round;stroke-linejoin:round;stroke-width:3}
+		.st4 {fill:#000000;font-family:Calibri;font-size:1.5em}
+		.st5 {font-size:0.333328em}
+		.st6 {fill:#cdcdcd;fill-opacity:0.5;stroke:#cdcdcd;stroke-opacity:0.5}
+		.st7 {fill:#f2f2f2;stroke:#8c4810;stroke-width:3}
+		.st8 {marker-end:url(#mrkr4-18);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st9 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.33557046979866}
+		.st10 {fill:#f2f2f2;stroke:#a5a5a5;stroke-width:3}
+		.st11 {fill:#f2f2f2;stroke:#6666ff;stroke-width:3}
+		.st12 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-18" class="st9" refX="-5.96" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-2.98,-2.98) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Page-1</title>
+		<g id="shape4-1" transform="translate(88.0394,-102.382)">
+			<title>Rectangle.4</title>
+			<desc>MVHL Mannvirkishluti</desc>
+			<g id="shadow4-2" transform="matrix(1,0,0,1,1.44,1.44)" class="st1">
+				<rect x="0" y="103.882" width="54.5783" height="56.5235" rx="5.66929" ry="5.66929" class="st2"/>
+			</g>
+			<rect x="0" y="103.882" width="54.5783" height="56.5235" rx="5.66929" ry="5.66929" class="st3"/>
+			<text x="5.1" y="137.54" class="st4">MVHL <tspan x="8.29" dy="1.8em" class="st5">Mannvirkishluti</tspan></text>		</g>
+		<g id="shape5-7" transform="translate(3,-3)">
+			<title>Rectangle.53</title>
+			<desc>FL Flötur</desc>
+			<g id="shadow5-8" transform="matrix(1,0,0,1,1.44,1.44)" class="st1">
+				<rect x="0" y="103.713" width="56.6929" height="56.6929" rx="5.66929" ry="5.66929" class="st6"/>
+			</g>
+			<rect x="0" y="103.713" width="56.6929" height="56.6929" rx="5.66929" ry="5.66929" class="st7"/>
+			<text x="20.43" y="133.86" class="st4">FL <tspan x="21.07" dy="1.8em" class="st5">Flötur</tspan></text>		</g>
+		<g id="shape6-13" transform="translate(31.3465,-59.6929)">
+			<title>Dynamic connector.48</title>
+			<path d="M0 160.41 L0 148.13 A5.66929 5.66929 0 0 1 5.67 142.46 L78.31 142.46 A5.66929 5.66929 -180 0 0 83.98 136.79
+						 L83.98 129.64" class="st8"/>
+		</g>
+		<g id="shape7-19" transform="translate(86.982,-3)">
+			<title>Rectangle.46</title>
+			<desc>BAF Byggingaráfangi</desc>
+			<g id="shadow7-20" transform="matrix(1,0,0,1,1.44,1.44)" class="st1">
+				<rect x="0" y="103.713" width="56.6929" height="56.6929" rx="5.66929" ry="5.66929" class="st6"/>
+			</g>
+			<rect x="0" y="103.713" width="56.6929" height="56.6929" rx="5.66929" ry="5.66929" class="st10"/>
+			<text x="14.11" y="137.46" class="st4">BAF <tspan x="8.91" dy="1.8em" class="st5">Byggingaráfangi</tspan></text>		</g>
+		<g id="shape8-25" transform="translate(122.415,-59.6929)">
+			<title>Dynamic connector.92</title>
+			<path d="M-7.09 160.41 L-7.09 129.64" class="st8"/>
+		</g>
+		<g id="shape9-30" transform="translate(173.079,-3)">
+			<title>Rectangle.112</title>
+			<desc>FR Fasteignaréttindi</desc>
+			<g id="shadow9-31" transform="matrix(1,0,0,1,1.44,1.44)" class="st1">
+				<rect x="0" y="103.713" width="56.6929" height="56.6929" rx="5.66929" ry="5.66929" class="st6"/>
+			</g>
+			<rect x="0" y="103.713" width="56.6929" height="56.6929" rx="5.66929" ry="5.66929" class="st11"/>
+			<text x="19.32" y="133.86" class="st4">FR <tspan x="7.67" dy="1.8em" class="st5">Fasteignaréttindi</tspan></text>		</g>
+		<g id="shape10-36" transform="translate(201.425,-59.6929)">
+			<title>Dynamic connector.113</title>
+			<path d="M0 160.41 L0 147.85 A5.66929 5.66929 -180 0 0 -5.67 142.18 L-80.43 142.18 A5.66929 5.66929 0 0 1 -86.1 136.51
+						 L-86.1 129.64" class="st8"/>
+		</g>
+	</g>
+</svg>
