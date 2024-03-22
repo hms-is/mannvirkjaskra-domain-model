@@ -29,7 +29,7 @@ jobs:
       - name: Upload Artifacts for Deployment
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_build/html  # Update this to the path where your HTML files are generated
+          path: ./build/html  # Update this to the path where your HTML files are generated
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
