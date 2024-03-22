@@ -33,7 +33,7 @@ jobs:
           sphinx-build --version
         shell: pwsh
 
-      - name: Setup PowerShell Environment and Build Sphinx
+      - name: Build Sphinx
         run: |
           .\build-sphinx.ps1
         shell: pwsh
