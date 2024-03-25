@@ -18,6 +18,22 @@
             }
         },
         {
+            "label": "make clean",
+            "type": "shell",
+            "command": "make clean",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "options": {
+                "shell": {
+                    "executable": "cmd.exe",
+                    "args": ["/d", "/c"]
+                }
+            }
+        },
+        {
             "label": "open html",
             "type": "shell",
             "command": "start",

@@ -10,6 +10,14 @@
             "console": "internalConsole"
         },
         {
+            "name": "Clean html",
+            "type": "debugpy",
+            "request": "launch",
+            "preLaunchTask": "make clean",
+            "program": "${workspaceFolder}/pass.py",
+            "console": "internalConsole"
+        },
+        {
             "name": "Open html",
             "type": "debugpy",
             "request": "launch",
