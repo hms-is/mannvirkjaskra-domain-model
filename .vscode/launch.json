@@ -2,19 +2,21 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Build Hugtakalíkan",
-            "type": "node",
+            "name": "Build html",
+            "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}/build/html/index.html",
-            "preLaunchTask": "make html"
+            "preLaunchTask": "make html",
+            "program": "${workspaceFolder}/pass.py",
+            "console": "internalConsole"
         },
         {
-            "name": "Open Hugtakalíkan",
-            "type": "node",
+            "name": "Open html",
+            "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}/build/html/index.html",
-            "postDebugTask": "open html"
-        }
+            "preLaunchTask": "open html",
+            "program": "${workspaceFolder}/pass.py",
+            "console": "internalConsole"
+        },
     ],
     "compounds": []
 }
