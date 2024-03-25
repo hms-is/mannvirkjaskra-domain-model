@@ -25,6 +25,15 @@
             "program": "${workspaceFolder}/pass.py",
             "console": "internalConsole"
         },
+        {
+            "name": "Clean & build html",
+            "type": "debugpy",
+            "request": "launch",
+            "preLaunchTask": "make clean",
+            "postDebugTask": "make html",
+            "program": "${workspaceFolder}/pass.py",
+            "console": "internalConsole"
+        }
     ],
     "compounds": []
 }
