@@ -28,7 +28,6 @@ Eigindi
    
    eigindi/tegund.rst
    eigindi/mannvirkishluti_nr.rst
-   ...eigindi/eignarhlutfall.rst
    eigindi/istflokkun.rst
 
 Vensl
