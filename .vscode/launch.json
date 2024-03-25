@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Build Hugtakalíkan",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/html/index.html",
+            "preLaunchTask": "make html"
+        },
+        {
+            "name": "Open Hugtakalíkan",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/html/index.html",
+            "postDebugTask": "open html"
+        }
+    ],
+    "compounds": []
+}
