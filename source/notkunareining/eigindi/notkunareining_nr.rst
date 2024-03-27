@@ -19,10 +19,13 @@ Auðkenna notkunareiningu
 
 
 :Gagnatýpa:
+
 8 stafa heiltala sem byrjar á 6 
  
 :Uppruni:
+
 Framkallað gildi 
  
-:Birtingarform: 
+:Birtingarform:
+ 
 60000000

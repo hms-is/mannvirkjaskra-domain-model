@@ -23,6 +23,7 @@ Flatarmál
 ~~~~~~~~~~~~~~~~~~~~
   
 .. admonition:: Skilgreining
+  
  Flatarmál flatar er raunflötur hans
 
 :Skýring:

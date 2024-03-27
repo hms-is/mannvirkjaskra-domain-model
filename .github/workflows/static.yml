@@ -37,6 +37,14 @@ jobs:
         run: |
           .\build-sphinx.ps1
         shell: pwsh
+        
+      - name: QuickFix Temporarily add ROOT_URL to documentation_options.js to fix broken search in sphinx wagtail theme
+        run: |
+          $file = './build/html/_static/documentation_options.js'
+          $content = Get-Content $file -Raw
+          $modifiedContent = $content -replace '\};', "`n    URL_ROOT: 'https://hms-is.github.io/mannvirkjaskra-domain-model/',`n};"
+          Set-Content -Path $file -Value $modifiedContent
+        shell: pwsh
 
       - name: Upload Artifacts for Deployment
         uses: actions/upload-pages-artifact@v3
