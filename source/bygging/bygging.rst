@@ -22,7 +22,7 @@ Eigindi
 .. toctree::
    :maxdepth: 5
 
-   eigindi/bygging_nr.rst
+   eigindi/bygging_audkenni.rst
    eigindi/byggingarform.rst
    eigindi/botnplata_ummal.rst
    eigindi/botnplata_flatarmal.rst
