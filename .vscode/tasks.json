@@ -4,7 +4,7 @@
         {
             "label": "make html",
             "type": "shell",
-            "command": "make html",
+            "command": "make singlehtml",
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -37,7 +37,7 @@
             "label": "open html",
             "type": "shell",
             "command": "start",
-            "args": ["build/html/index.html"],
+            "args": ["build/singlehtml/index.html"],
             "problemMatcher": []
         }        
     ]
