@@ -11,11 +11,11 @@ Skilgreining
 
 .. admonition:: Skilgreining
     
-  Bygging er mannvirki með nýtanlegt rými í samræmi við tilgang byggingarinnar
+  Bygging er mannvirki með nýtanlegt rými
    
 Hlutverk
 --------
-  Bygging er andlag sem tengir saman hluta byggingar og geymir upplýsingar um bygginguna.
+  Að varðveita upplýsingar um bygginguna t.d. byggingarefni og byggingarár. Varðveita upplýsingar um hönnuði byggingarinnar og ábyrgðar og framkvæmdaaðila. Einnig að varðveita upplýsingar um úttektir og stöðuskoðanir á byggingartíma ásamt viðhaldssögu.  
 
 Eigindi
 -------
