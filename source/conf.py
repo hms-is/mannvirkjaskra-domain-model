@@ -21,6 +21,7 @@ project = 'Mannvirkjaskra Domain Model'
 copyright = '2023 Húsnæðis og Mannvirkjastofnun'
 author = 'haukur.ludviksson@hms.is'
 master_doc = 'index'
+version = '1.1'
 
 html_theme_options = dict(
     project_name = "Hugtakalíkan Mannvirkjaskrár",
